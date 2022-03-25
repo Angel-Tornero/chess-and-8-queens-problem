@@ -22,7 +22,7 @@
   <p align="center">
     This app generates random solutions to 8 queens problem and places the chess pieces like a normal game but you can't play (yet).
     <br />
-    <a href="https://angel-tornero.github.io/chess-and-8-queens-problem/out/index.html"><strong>Explore the docs »</strong></a>
+    <a href="https://angel-tornero.github.io/chess-and-8-queens-problem-web-app/out/index.html"><strong>Explore the docs »</strong></a>
     <br />
 </div>
 
@@ -37,7 +37,7 @@
 
 Ángel Tornero Hernández - [@angred_19](https://twitter.com/angred_19) - angelgeniuh@gmail.com
 
-Project Link: [https://github.com/Angel-Tornero/chess-and-8-queens-problem](https://github.com/Angel-Tornero/chess-and-8-queens-problem)
+Project Link: [https://github.com/Angel-Tornero/chess-and-8-queens-problem-web-app](https://github.com/Angel-Tornero/chess-and-8-queens-problem-web-app)
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
