@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<link rel="icon" href="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/256x256/plain/chess_piece_king.png">
+<link rel="stylesheet" type="text/css" href="css/chess.css">
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>Chess</title>
+    <script defer src="js/index.js"></script>
+    <script defer src="js/chess.js"></script>
+    <script defer src="js/chess-board.js"></script>
+    <script defer src="js/chess-pieces/chess-piece.js"></script>
+    <script defer src="js/chess-pieces/chess-piece-bishop.js"></script>
+    <script defer src="js/chess-pieces/chess-piece-king.js"></script>
+    <script defer src="js/chess-pieces/chess-piece-knight.js"></script>
+    <script defer src="js/chess-pieces/chess-piece-pawn.js"></script>
+    <script defer src="js/chess-pieces/chess-piece-queen.js"></script>
+    <script defer src="js/chess-pieces/chess-piece-rook.js"></script>
+  </head>
+<body onload="generateBoardMod();">
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu'><label></label>
+        <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='tornero-angel-chess.html'>Chess</a></li>
+            <li><a href='modificacion.html'>Modificación</a></li>
+            <li><a href='out/index.html' target='_blank'>Documentation</a></li>
+            <li><a href='coverage/index.html' target='_blank'>Coverage</a></li>
+        </ul>
+      </nav>
+  <nav style="display: block;
+    float: right;
+    margin-top: 28px;
+    width: 30%;
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+    padding-left: 16px;
+      text-align: left;">
+      
+    <canvas id="algebra" width="300" height="400" style="background-color: rgb(238, 238, 238);"> </canvas>
+    <br><br><br>
+    <input type="button" style="background-color:rgb(238, 238, 238)" class="button" id="button1" value="Generar solución" onclick="generateSolutionMod(); ">
+    <!--input type="button" style="background-color:rgb(238, 238, 238)" class="button" id="button1" value="Soluciones totales" onclick="calculateTotalSolutions();"-->
+  </nav>
+  <canvas id="board" width="640" height="640" style="padding: 60px 220px; float: right;display: block; margin: 0 auto; text-align: center; background-color:rgb(255, 238, 203)';
+  ;"></canvas>
+  <h1 style="color:black; font-size: 50px;">MOD</h1>
+  
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h1 style="font-size: 14px;">Universidad de La Laguna, Escuela Superior de Ingeniería y Tecnología, Grado en Ingeniería Informática, Programación de Aplicaciones Interactivas</h1>
+</body>
+
+</html>
+
